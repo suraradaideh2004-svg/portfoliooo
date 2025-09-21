@@ -36,3 +36,21 @@ nav ul li a:hover {
 background-color:pink;
 color: azure;
 }
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.text1{
+    margin: 5px 0;
+}
+ .img1 img {
+    border-radius: 50%;
+ object-fit: cover;
+    width: 200px;
+height: 200px;
+
+margin: 20px;
+filter: grayscale(100%);
+}
