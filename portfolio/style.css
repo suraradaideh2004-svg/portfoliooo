@@ -54,3 +54,22 @@ height: 200px;
 margin: 20px;
 filter: grayscale(100%);
 }
+.content{
+     display: grid;
+  grid-template-rows: repeat(3,auto);
+  max-width: 1000px; 
+  margin: auto;
+  gap: 20px;
+}
+
+.box{
+    background-color: rgb(227, 87, 87);
+    border:5px double red;
+        color: black;
+    padding: 10px;
+text-align: left;
+ 
+
+
+
+}
